@@ -33,24 +33,7 @@
 			>;
 		};
 
-                nav_num_layer {
-// ------------------------------------------------------------------------------------------------
-// |TLD| 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | Ctrl-L  | Up | Ctrl-R |  DEL |
-// |    |    |    |    |    |    |    |    |    |    |   Left  | Dn | Right  |      |
-// |     |    |    |    |    |    |    |    |    |    |         |    |        |
-// |      |     |      |      |     |     |     |     |     |     |     |                  |
-// |       |      |      |             TOG RGB                | PRT SCR |       |       |  DEL  |
-// ------------------------------------------------------------------------------------------------
-			bindings = <
-	&gresc  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp UP &kp EQUAL  &kp DEL  //14
-	  &trans &trans &trans &trans  &trans  &trans &trans N4 &kp N5 &kp N6   &kp LEFT  &kp DOWN  &kp RIGHT  &trans //14
-	   &trans &trans  &trans  &trans &trans &trans &trans &kp N1 &kp N2 &kp N3   &trans   &trans        &trans  //13
-	    &trans &trans  &trans  &trans &trans &trans &trans &trans &trans   &trans   &trans   &trans               //12
-	     &trans  &trans   &trans                       &trans                &trans      &trans      &trans               &trans    //8
-			>;
-		};
-
-		rgb_layer {
+        	rgb_layer {
 // ------------------------------------------------------------------------------------------------
 // | BT CLR | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10  | F11 | F12 | EFFECT REV |
 // |  BT 1   |   |  UP |   | HUEUP | SATUP | BRIUP | SPDUP |   |     |    |     |     |           |
